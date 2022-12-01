@@ -1,0 +1,141 @@
+ID Enrollment Status,Enrollment Status,ID Year,Year,Enrollment,University,ID University,Slug University,share
+1,"Full time",2020,"2020",5073994,"Doctoral Universities","DOC","doctoral-universities",0.764408530291042
+2,"Part time",2020,"2020",1563810,"Doctoral Universities","DOC","doctoral-universities",0.23559146970895797
+1,"Full time",2020,"2020",1273398,"Doctoral Universities: Higher Research Activity","16","doctoral-universities-higher-research-activity",0.7624398112278928
+2,"Part time",2020,"2020",396764,"Doctoral Universities: Higher Research Activity","16","doctoral-universities-higher-research-activity",0.23756018877210713
+1,"Full time",2020,"2020",15918,"University of Nevada-Reno","182290","university-of-nevada-reno",0.7681690956471383
+1,"Full time",2020,"2020",15801,"Rowan University","184782","rowan-university",0.8029779449131009
+1,"Full time",2020,"2020",17743,"Ohio University-Main Campus","204857","ohio-university-main-campus",0.6900132223691374
+1,"Full time",2020,"2020",19264,"Oklahoma State University-Main Campus","207388","oklahoma-state-university-main-campus",0.7851640513552068
+1,"Full time",2020,"2020",8301,"South Dakota State University","219356","south-dakota-state-university",0.7278386672512056
+2,"Part time",2020,"2020",4804,"University of Nevada-Reno","182290","university-of-nevada-reno",0.2318309043528617
+2,"Part time",2020,"2020",3877,"Rowan University","184782","rowan-university",0.19702205508689907
+2,"Part time",2020,"2020",7971,"Ohio University-Main Campus","204857","ohio-university-main-campus",0.3099867776308626
+2,"Part time",2020,"2020",5271,"Oklahoma State University-Main Campus","207388","oklahoma-state-university-main-campus",0.21483594864479316
+2,"Part time",2020,"2020",3104,"South Dakota State University","219356","south-dakota-state-university",0.2721613327487944
+1,"Full time",2019,"2019",5208993,"Doctoral Universities","DOC","doctoral-universities",0.7762226976822367
+2,"Part time",2019,"2019",1501701,"Doctoral Universities","DOC","doctoral-universities",0.22377730231776327
+1,"Full time",2019,"2019",1295766,"Doctoral Universities: Higher Research Activity","16","doctoral-universities-higher-research-activity",0.7685713794254959
+2,"Part time",2019,"2019",390175,"Doctoral Universities: Higher Research Activity","16","doctoral-universities-higher-research-activity",0.23142862057450408
+1,"Full time",2019,"2019",16427,"University of Nevada-Reno","182290","university-of-nevada-reno",0.7824989282141667
+1,"Full time",2019,"2019",15863,"Rowan University","184782","rowan-university",0.8085941482312162
+1,"Full time",2019,"2019",19320,"Ohio University-Main Campus","204857","ohio-university-main-campus",0.7059597325245734
+1,"Full time",2019,"2019",18884,"Oklahoma State University-Main Campus","207388","oklahoma-state-university-main-campus",0.7842518377009012
+1,"Full time",2019,"2019",8474,"South Dakota State University","219356","south-dakota-state-university",0.7361014593467686
+1,"Full time",2019,"2019",10104,"Arizona State University-Downtown Phoenix","448886","arizona-state-university-downtown-phoenix",0.8847635726795097
+2,"Part time",2019,"2019",4566,"University of Nevada-Reno","182290","university-of-nevada-reno",0.21750107178583336
+2,"Part time",2019,"2019",3755,"Rowan University","184782","rowan-university",0.19140585176878377
+2,"Part time",2019,"2019",8047,"Ohio University-Main Campus","204857","ohio-university-main-campus",0.2940402674754266
+2,"Part time",2019,"2019",5195,"Oklahoma State University-Main Campus","207388","oklahoma-state-university-main-campus",0.2157481622990988
+2,"Part time",2019,"2019",3038,"South Dakota State University","219356","south-dakota-state-university",0.26389854065323143
+2,"Part time",2019,"2019",1316,"Arizona State University-Downtown Phoenix","448886","arizona-state-university-downtown-phoenix",0.11523642732049037
+1,"Full time",2018,"2018",5171124,"Doctoral Universities","DOC","doctoral-universities",0.7792053742333765
+2,"Part time",2018,"2018",1465283,"Doctoral Universities","DOC","doctoral-universities",0.22079462576662343
+1,"Full time",2018,"2018",1307898,"Doctoral Universities: Higher Research Activity","16","doctoral-universities-higher-research-activity",0.768342072829
+2,"Part time",2018,"2018",394336,"Doctoral Universities: Higher Research Activity","16","doctoral-universities-higher-research-activity",0.231657927171
+1,"Full time",2018,"2018",16768,"University of Nevada-Reno","182290","university-of-nevada-reno",0.7812514559940362
+1,"Full time",2018,"2018",15661,"Rowan University","184782","rowan-university",0.8045723092730542
+1,"Full time",2018,"2018",20184,"Ohio University-Main Campus","204857","ohio-university-main-campus",0.7087078651685393
+1,"Full time",2018,"2018",19387,"Oklahoma State University-Main Campus","207388","oklahoma-state-university-main-campus",0.7852166869177805
+1,"Full time",2018,"2018",8727,"South Dakota State University","219356","south-dakota-state-university",0.7210013218770654
+1,"Full time",2018,"2018",10062,"Arizona State University-Downtown Phoenix","448886","arizona-state-university-downtown-phoenix",0.8686118784530387
+2,"Part time",2018,"2018",4695,"University of Nevada-Reno","182290","university-of-nevada-reno",0.21874854400596375
+2,"Part time",2018,"2018",3804,"Rowan University","184782","rowan-university",0.1954276907269458
+2,"Part time",2018,"2018",8296,"Ohio University-Main Campus","204857","ohio-university-main-campus",0.29129213483146066
+2,"Part time",2018,"2018",5303,"Oklahoma State University-Main Campus","207388","oklahoma-state-university-main-campus",0.2147833130822195
+2,"Part time",2018,"2018",3377,"South Dakota State University","219356","south-dakota-state-university",0.27899867812293455
+2,"Part time",2018,"2018",1522,"Arizona State University-Downtown Phoenix","448886","arizona-state-university-downtown-phoenix",0.13138812154696133
+1,"Full time",2017,"2017",5139378,"Doctoral Universities","DOC","doctoral-universities",0.7796012812492605
+2,"Part time",2017,"2017",1452938,"Doctoral Universities","DOC","doctoral-universities",0.2203987187507395
+1,"Full time",2017,"2017",1312404,"Doctoral Universities: Higher Research Activity","16","doctoral-universities-higher-research-activity",0.7672979140247763
+2,"Part time",2017,"2017",398019,"Doctoral Universities: Higher Research Activity","16","doctoral-universities-higher-research-activity",0.23270208597522368
+1,"Full time",2017,"2017",17053,"University of Nevada-Reno","182290","university-of-nevada-reno",0.7874128457311723
+1,"Full time",2017,"2017",15126,"Rowan University","184782","rowan-university",0.8183293659381087
+1,"Full time",2017,"2017",20805,"Ohio University-Main Campus","204857","ohio-university-main-campus",0.7084000136198032
+1,"Full time",2017,"2017",19933,"Oklahoma State University-Main Campus","207388","oklahoma-state-university-main-campus",0.7880213480925085
+1,"Full time",2017,"2017",8973,"South Dakota State University","219356","south-dakota-state-university",0.7169223394055608
+1,"Full time",2017,"2017",9983,"Arizona State University-Downtown Phoenix","448886","arizona-state-university-downtown-phoenix",0.8707370257304841
+2,"Part time",2017,"2017",4604,"University of Nevada-Reno","182290","university-of-nevada-reno",0.21258715426882763
+2,"Part time",2017,"2017",3358,"Rowan University","184782","rowan-university",0.18167063406189138
+2,"Part time",2017,"2017",8564,"Ohio University-Main Campus","204857","ohio-university-main-campus",0.2915999863801968
+2,"Part time",2017,"2017",5362,"Oklahoma State University-Main Campus","207388","oklahoma-state-university-main-campus",0.2119786519074916
+2,"Part time",2017,"2017",3543,"South Dakota State University","219356","south-dakota-state-university",0.2830776605944391
+2,"Part time",2017,"2017",1482,"Arizona State University-Downtown Phoenix","448886","arizona-state-university-downtown-phoenix",0.1292629742695159
+1,"Full time",2016,"2016",5122545,"Doctoral Universities","DOC","doctoral-universities",0.7803563969467882
+2,"Part time",2016,"2016",1441821,"Doctoral Universities","DOC","doctoral-universities",0.21964360305321184
+1,"Full time",2016,"2016",1309244,"Doctoral Universities: Higher Research Activity","16","doctoral-universities-higher-research-activity",0.7645649040763745
+2,"Part time",2016,"2016",403160,"Doctoral Universities: Higher Research Activity","16","doctoral-universities-higher-research-activity",0.2354350959236255
+1,"Full time",2016,"2016",16832,"University of Nevada-Reno","182290","university-of-nevada-reno",0.7882733105418442
+1,"Full time",2016,"2016",14208,"Rowan University","184782","rowan-university",0.8178678332949574
+1,"Full time",2016,"2016",20815,"Ohio University-Main Campus","204857","ohio-university-main-campus",0.7053780202650038
+1,"Full time",2016,"2016",20229,"Oklahoma State University-Main Campus","207388","oklahoma-state-university-main-campus",0.7895168214815393
+1,"Full time",2016,"2016",9001,"South Dakota State University","219356","south-dakota-state-university",0.7143650793650793
+1,"Full time",2016,"2016",10166,"Arizona State University-Downtown Phoenix","448886","arizona-state-university-downtown-phoenix",0.8661497827383489
+2,"Part time",2016,"2016",4521,"University of Nevada-Reno","182290","university-of-nevada-reno",0.21172668945815576
+2,"Part time",2016,"2016",3164,"Rowan University","184782","rowan-university",0.1821321667050426
+2,"Part time",2016,"2016",8694,"Ohio University-Main Campus","204857","ohio-university-main-campus",0.2946219797349961
+2,"Part time",2016,"2016",5393,"Oklahoma State University-Main Campus","207388","oklahoma-state-university-main-campus",0.21048317851846068
+2,"Part time",2016,"2016",3599,"South Dakota State University","219356","south-dakota-state-university",0.28563492063492063
+2,"Part time",2016,"2016",1571,"Arizona State University-Downtown Phoenix","448886","arizona-state-university-downtown-phoenix",0.1338502172616512
+1,"Full time",2015,"2015",5105931,"Doctoral Universities","DOC","doctoral-universities",0.7834890870126566
+2,"Part time",2015,"2015",1410983,"Doctoral Universities","DOC","doctoral-universities",0.2165109129873434
+1,"Full time",2015,"2015",1301683,"Doctoral Universities: Higher Research Activity","16","doctoral-universities-higher-research-activity",0.763078523018986
+2,"Part time",2015,"2015",404148,"Doctoral Universities: Higher Research Activity","16","doctoral-universities-higher-research-activity",0.23692147698101396
+1,"Full time",2015,"2015",16250,"University of Nevada-Reno","182290","university-of-nevada-reno",0.7775863719016174
+1,"Full time",2015,"2015",13058,"Rowan University","184782","rowan-university",0.8082946456205509
+1,"Full time",2015,"2015",20529,"Ohio University-Main Campus","204857","ohio-university-main-campus",0.7076037501723424
+1,"Full time",2015,"2015",20204,"Oklahoma State University-Main Campus","207388","oklahoma-state-university-main-campus",0.7791747011183957
+1,"Full time",2015,"2015",9090,"South Dakota State University","219356","south-dakota-state-university",0.7228053435114504
+1,"Full time",2015,"2015",9528,"Arizona State University-Downtown Phoenix","448886","arizona-state-university-downtown-phoenix",0.8699780861943024
+2,"Part time",2015,"2015",4648,"University of Nevada-Reno","182290","university-of-nevada-reno",0.2224136280983826
+2,"Part time",2015,"2015",3097,"Rowan University","184782","rowan-university",0.19170535437944908
+2,"Part time",2015,"2015",8483,"Ohio University-Main Campus","204857","ohio-university-main-campus",0.2923962498276575
+2,"Part time",2015,"2015",5726,"Oklahoma State University-Main Campus","207388","oklahoma-state-university-main-campus",0.22082529888160432
+2,"Part time",2015,"2015",3486,"South Dakota State University","219356","south-dakota-state-university",0.27719465648854963
+2,"Part time",2015,"2015",1424,"Arizona State University-Downtown Phoenix","448886","arizona-state-university-downtown-phoenix",0.13002191380569758
+1,"Full time",2014,"2014",5047167,"Doctoral Universities","DOC","doctoral-universities",0.7846347573767918
+2,"Part time",2014,"2014",1385338,"Doctoral Universities","DOC","doctoral-universities",0.21536524262320822
+1,"Full time",2014,"2014",1282249,"Doctoral Universities: Higher Research Activity","16","doctoral-universities-higher-research-activity",0.7583139602618928
+2,"Part time",2014,"2014",408672,"Doctoral Universities: Higher Research Activity","16","doctoral-universities-higher-research-activity",0.24168603973810723
+1,"Full time",2014,"2014",15266,"University of Nevada-Reno","182290","university-of-nevada-reno",0.7658272298585331
+1,"Full time",2014,"2014",11753,"Rowan University","184782","rowan-university",0.7953038300175937
+1,"Full time",2014,"2014",19869,"Ohio University-Main Campus","204857","ohio-university-main-campus",0.6800492863743711
+1,"Full time",2014,"2014",20129,"Oklahoma State University-Main Campus","207388","oklahoma-state-university-main-campus",0.7753254756952469
+1,"Full time",2014,"2014",9149,"South Dakota State University","219356","south-dakota-state-university",0.7294108267559595
+1,"Full time",2014,"2014",9599,"Arizona State University-Downtown Phoenix","448886","arizona-state-university-downtown-phoenix",0.8558309557774608
+2,"Part time",2014,"2014",4668,"University of Nevada-Reno","182290","university-of-nevada-reno",0.23417277014146684
+2,"Part time",2014,"2014",3025,"Rowan University","184782","rowan-university",0.20469616998240628
+2,"Part time",2014,"2014",9348,"Ohio University-Main Campus","204857","ohio-university-main-campus",0.31995071362562894
+2,"Part time",2014,"2014",5833,"Oklahoma State University-Main Campus","207388","oklahoma-state-university-main-campus",0.2246745243047531
+2,"Part time",2014,"2014",3394,"South Dakota State University","219356","south-dakota-state-university",0.2705891732440405
+2,"Part time",2014,"2014",1617,"Arizona State University-Downtown Phoenix","448886","arizona-state-university-downtown-phoenix",0.14416904422253923
+1,"Full time",2013,"2013",4787984,"Doctoral Universities","DOC","doctoral-universities",0.7784737311388582
+2,"Part time",2013,"2013",1362492,"Doctoral Universities","DOC","doctoral-universities",0.2215262688611418
+1,"Full time",2013,"2013",1265408,"Doctoral Universities: Higher Research Activity","16","doctoral-universities-higher-research-activity",0.7535105844523179
+2,"Part time",2013,"2013",413942,"Doctoral Universities: Higher Research Activity","16","doctoral-universities-higher-research-activity",0.24648941554768214
+1,"Full time",2013,"2013",14208,"University of Nevada-Reno","182290","university-of-nevada-reno",0.7567106945036216
+1,"Full time",2013,"2013",10499,"Rowan University","184782","rowan-university",0.7865008614877519
+1,"Full time",2013,"2013",19449,"Ohio University-Main Campus","204857","ohio-university-main-campus",0.6756409365663865
+1,"Full time",2013,"2013",19959,"Oklahoma State University-Main Campus","207388","oklahoma-state-university-main-campus",0.7655045449315384
+1,"Full time",2013,"2013",9146,"South Dakota State University","219356","south-dakota-state-university",0.7302195608782435
+1,"Full time",2013,"2013",8918,"Arizona State University-Downtown Phoenix","448886","arizona-state-university-downtown-phoenix",0.8575
+2,"Part time",2013,"2013",4568,"University of Nevada-Reno","182290","university-of-nevada-reno",0.24328930549637837
+2,"Part time",2013,"2013",2850,"Rowan University","184782","rowan-university",0.2134991385122481
+2,"Part time",2013,"2013",9337,"Ohio University-Main Campus","204857","ohio-university-main-campus",0.32435906343361354
+2,"Part time",2013,"2013",6114,"Oklahoma State University-Main Campus","207388","oklahoma-state-university-main-campus",0.23449545506846162
+2,"Part time",2013,"2013",3379,"South Dakota State University","219356","south-dakota-state-university",0.2697804391217565
+2,"Part time",2013,"2013",1482,"Arizona State University-Downtown Phoenix","448886","arizona-state-university-downtown-phoenix",0.1425
+1,"Full time",2012,"2012",4737820,"Doctoral Universities","DOC","doctoral-universities",0.7754654237798027
+2,"Part time",2012,"2012",1371827,"Doctoral Universities","DOC","doctoral-universities",0.22453457622019735
+1,"Full time",2012,"2012",1259671,"Doctoral Universities: Higher Research Activity","16","doctoral-universities-higher-research-activity",0.7505363863912472
+2,"Part time",2012,"2012",418690,"Doctoral Universities: Higher Research Activity","16","doctoral-universities-higher-research-activity",0.24946361360875283
+1,"Full time",2012,"2012",13733,"University of Nevada-Reno","182290","university-of-nevada-reno",0.7534426949031656
+1,"Full time",2012,"2012",9605,"Rowan University","184782","rowan-university",0.7883936633013215
+1,"Full time",2012,"2012",19501,"Ohio University-Main Campus","204857","ohio-university-main-campus",0.7116633822348734
+1,"Full time",2012,"2012",19597,"Oklahoma State University-Main Campus","207388","oklahoma-state-university-main-campus",0.7622918935739847
+1,"Full time",2012,"2012",9015,"South Dakota State University","219356","south-dakota-state-university",0.7164428196773425
+2,"Part time",2012,"2012",4494,"University of Nevada-Reno","182290","university-of-nevada-reno",0.24655730509683438
+2,"Part time",2012,"2012",2578,"Rowan University","184782","rowan-university",0.21160633669867848
+2,"Part time",2012,"2012",7901,"Ohio University-Main Campus","204857","ohio-university-main-campus",0.28833661776512665
+2,"Part time",2012,"2012",6111,"Oklahoma State University-Main Campus","207388","oklahoma-state-university-main-campus",0.23770810642601525
+2,"Part time",2012,"2012",3568,"South Dakota State University","219356","south-dakota-state-university",0.28355718032265753

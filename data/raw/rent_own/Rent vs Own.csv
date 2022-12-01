@@ -1,0 +1,41 @@
+ID Occupied By,Occupied By,ID Year,Year,Household Ownership,Household Ownership Moe,Geography,ID Geography,Slug Geography,share
+0,"Owner Occupied",2020,"2020",78801376,342600,"United States","01000US","united-states",0.64404298146842
+0,"Owner Occupied",2020,"2020",986555,4254,"Oklahoma","04000US40","oklahoma",0.6605352682065576
+0,"Owner Occupied",2020,"2020",16201,563,"Payne County, OK","05000US40119","payne-county-ok",0.5168442544503286
+0,"Owner Occupied",2020,"2020",16201,563,"Stillwater, OK","31000US44660","stillwater-ok-31000US44660",0.5168442544503286
+0,"Owner Occupied",2020,"2020",33902,637,"Stillwater City PUMA, OK","79500US4001501","stillwater-city-puma-ok",0.6010460065597022
+0,"Owner Occupied",2019,"2019",77274381,377633,"United States","01000US","united-states",0.6399214141224628
+0,"Owner Occupied",2019,"2019",971122,3448,"Oklahoma","04000US40","oklahoma",0.6561364700508966
+0,"Owner Occupied",2019,"2019",15910,480.00000000000006,"Payne County, OK","05000US40119","payne-county-ok",0.5167597765363129
+0,"Owner Occupied",2019,"2019",15910,480.00000000000006,"Stillwater, OK","31000US44660","stillwater-ok-31000US44660",0.5167597765363129
+0,"Owner Occupied",2019,"2019",33496,620,"Stillwater City PUMA, OK","79500US4001501","stillwater-city-puma-ok",0.6007065870411219
+0,"Owner Occupied",2018,"2018",76444810,367132,"United States","01000US","united-states",0.6384759732320674
+0,"Owner Occupied",2018,"2018",967038,3965,"Oklahoma","04000US40","oklahoma",0.6557879318061602
+0,"Owner Occupied",2018,"2018",15515,508,"Payne County, OK","05000US40119","payne-county-ok",0.5089388223716582
+0,"Owner Occupied",2018,"2018",15515,508,"Stillwater, OK","31000US44660","stillwater-ok-31000US44660",0.5089388223716582
+0,"Owner Occupied",2018,"2018",33468,580,"Stillwater City PUMA, OK","79500US4001501","stillwater-city-puma-ok",0.6039519985563475
+0,"Owner Occupied",2017,"2017",75833135,358989,"United States","01000US","united-states",0.6381868060589238
+0,"Owner Occupied",2017,"2017",964466,3968,"Oklahoma","04000US40","oklahoma",0.6565589109655671
+0,"Owner Occupied",2017,"2017",15050,432.99999999999994,"Payne County, OK","05000US40119","payne-county-ok",0.49500065780818314
+0,"Owner Occupied",2017,"2017",15050,432.99999999999994,"Stillwater, OK","31000US44660","stillwater-ok-31000US44660",0.49500065780818314
+0,"Owner Occupied",2017,"2017",33237,532,"Stillwater City PUMA, OK","79500US4001501","stillwater-city-puma-ok",0.5982073756771836
+0,"Owner Occupied",2016,"2016",74881068,360470,"United States","01000US","united-states",0.6361150331368476
+0,"Owner Occupied",2016,"2016",960161,3557,"Oklahoma","04000US40","oklahoma",0.6569695518303114
+0,"Owner Occupied",2016,"2016",14831,467,"Payne County, OK","05000US40119","payne-county-ok",0.4916788224373425
+0,"Owner Occupied",2016,"2016",14831,467,"Stillwater, OK","31000US44660","stillwater-ok-31000US44660",0.4916788224373425
+0,"Owner Occupied",2016,"2016",33007,588,"Stillwater City PUMA, OK","79500US4001501","stillwater-city-puma-ok",0.5988859454947926
+0,"Owner Occupied",2015,"2015",74712091,353420,"United States","01000US","united-states",0.6389673478521365
+0,"Owner Occupied",2015,"2015",961384,3651,"Oklahoma","04000US40","oklahoma",0.6605992767231422
+0,"Owner Occupied",2015,"2015",15152,508,"Payne County, OK","05000US40119","payne-county-ok",0.502320647129028
+0,"Owner Occupied",2015,"2015",15152,508,"Stillwater, OK","31000US44660","stillwater-ok-31000US44660",0.502320647129028
+0,"Owner Occupied",2015,"2015",33824,654,"Stillwater City PUMA, OK","79500US4001501","stillwater-city-puma-ok",0.6105966242440654
+0,"Owner Occupied",2014,"2014",74787460,343068,"United States","01000US","united-states",0.6435483800462007
+0,"Owner Occupied",2014,"2014",964573,4453,"Oklahoma","04000US40","oklahoma",0.6651690863564802
+0,"Owner Occupied",2014,"2014",15293,482,"Payne County, OK","05000US40119","payne-county-ok",0.5066927307666821
+0,"Owner Occupied",2014,"2014",15293,482,"Stillwater, OK","31000US44660","stillwater-ok-31000US44660",0.5066927307666821
+0,"Owner Occupied",2014,"2014",34601,621,"Stillwater City PUMA, OK","79500US4001501","stillwater-city-puma-ok",0.6175882625923679
+0,"Owner Occupied",2013,"2013",75075700,345645,"United States","01000US","united-states",0.649386382947334
+0,"Owner Occupied",2013,"2013",968736,4698,"Oklahoma","04000US40","oklahoma",0.6708321763114395
+0,"Owner Occupied",2013,"2013",15281,480.00000000000006,"Payne County, OK","05000US40119","payne-county-ok",0.509196934355215
+0,"Owner Occupied",2013,"2013",15281,480.00000000000006,"Stillwater, OK","31000US44660","stillwater-ok-31000US44660",0.509196934355215
+0,"Owner Occupied",2013,"2013",34645,666,"Stillwater City PUMA, OK","79500US4001501","stillwater-city-puma-ok",0.6183184308686263
