@@ -439,9 +439,15 @@ Looking at the graph, it can be reliably said that OSU enrollment numbers do pla
 
 Stillwater has a variety of properties broadly divided into Houses, Condos, Townhomes and Apartments. However, for the scope of this study we divided the type of property based on the number of bedrooms it contains as an indicator of the number of people living in that property. Stillwater mainly has a transitional type of lifestyle as it is chock full of students who attend the nearby university and therefore has a high demand for property rental services[3]. It was observed that rent prices were directly proportional to the value of the property being rented. However, rents of one category of rooms were significantly affected by property value. <br>
 Rents for properties containing 3 or more bedrooms were disproportionately higher than rents for properties containing less than 2 bedrooms. This is an expected outcome as it makes sense for a property owner to expect rent in accordance with the property value. Linear equations were created to gain a rough idea of what rent to expect given the value of the property is known: <br>
+
+
 $$ Rent (for 3 or more bedroom apt.) = 1.85⋅ property value $$
+
 $$ Rent(for 2 bedrooms or less apt.)=0.4⋅property value $$
+
 $$ Where, property value in 1000's $$
+
+
 We decided to carry out further analysis and it was found that Stillwater as a town was a prime location in Oklahoma as it is a thriving community with 50,000 permanent residents and in a location close to both Tulsa and Oklahoma City. Stillwater also gets about 23,000 new students each year at Oklahoma State University who contribute to the local economy. The crime rate and demographics of Stillwater are also a major contributor to the property values.<br>
 From an investor or property company perspective, Stillwater is an improving city with a high quality of life almost guaranteeing high ROI on investments[4], and from a resident perspective Stillwater is quaint town with a close-knit community. The main insight being that Stillwater is ripe for economic growth in the coming years.<br><br>
 
