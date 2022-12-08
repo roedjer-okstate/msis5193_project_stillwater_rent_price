@@ -134,6 +134,7 @@ arrow_2 = tibble(
 plot_theme + 
   # plot scatterplot with rent prices over years based on number of rooms
   geom_point(aes(y=Rent_Prices, color=group_number_rooms)) +
+  scale_color_manual(values=c("red", "blue"), name="Number of Bedrooms") +
   # plot regression line 1
   geom_abline(intercept = intercept1, slope = slope1, color="red", alpha=0.5, size=1) + 
   # plot regression line 2
