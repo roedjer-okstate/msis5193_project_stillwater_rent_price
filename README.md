@@ -542,7 +542,15 @@ Although there is just a slight increment in overall trend of rent prices, when 
 
 
 
-### References 
+## References 
 Charles, Michelle. *City of Stillwater Continues COVID Assistance with Phase 3 Rent and Utility Aid.* Stillwater News Press, 24 Mar. 2022, https://autos.yahoo.com/city-stillwater-continues-covid-assistance-050400868.html.<br>
 
-Mize, Richard. *It's Not Bedlam, but Stillwater Beats Norman When It Comes to Apartment Living.* The Oklahoman, Oklahoman, 11 Aug. 2022, https://www.oklahoman.com/story/business/real-estate/2022/08/11/oklahoma-college-towns-stillwater-norman-among-cheapest-rent/65398735007/.
+Jones, Dawn. *City of Stillwater Applies for Grant Funding to Begin Rail-to-Trail Project.* Stillwater News, 22 Nov. 2022, http://stillwater.org/news/view/id/774.<br>
+
+Mize, Richard. *It's Not Bedlam, but Stillwater Beats Norman When It Comes to Apartment Living.* The Oklahoman, Oklahoman, 11 Aug. 2022, https://www.oklahoman.com/story/business/real-estate/2022/08/11/oklahoma-college-towns-stillwater-norman-among-cheapest-rent/65398735007/.<br>
+
+Oklahoma State University. *OSU’s undergraduate enrollment reaches historic high in Stillwater.* OSU Headlines, 18 Sep. 2017, https://news.okstate.edu/articles/communications/2017/osu-s-undergraduate-enrollment-reaches-historic-high-stillwater.html.<br>
+
+Oklahoma State University. *OSU enrollment rises despite the global pandemic.* OSU Headlines, 1 Sep. 2020, https://news.okstate.edu/articles/communications/2020/osu-enrollment-rises-despite-the-global-pandemic.html.<br>
+
+United States Census Bureau. *QuickFacts.* United States Census Bureau, 1 Jul. 2021, https://www.census.gov/quickfacts/stillwatercityoklahoma.<br>
