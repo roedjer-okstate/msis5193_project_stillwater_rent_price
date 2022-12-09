@@ -12,13 +12,13 @@ Our main idea is to show the rent prices trend, as well as demographics variable
 
 ### Business Opportunity
 1. Charles (2022) states that several rent and utilities financial aid packages have been offered to mitigate the economic impact of the pandemic. Since the economy is in a recovery phase, prediction for Stillwater rent prices is crucial to provide interested parties insights for better financial and risk management. 
-2. “Stillwater ranked No. 9 and Norman landed at No. 11 for most affordable rents in a survey of cities large and small by Rent.com” (Mize, 2022). Having access to a rent price trend can help realtors and investors. It can also help incoming college students and adults in decision making for potential investments or residing in Stillwater in the near future as duration for the property to remain affordable could be forecasted.<br><br>
+2. “Stillwater ranked No. 9 and Norman landed at No. 11 for most affordable rents in a survey of cities large and small by Rent.com” (Mize, 2022). Having access to a rent price trend can help realtors and investors. It can also help incoming college students and adults in decision making for potential investments or residing in Stillwater in the near future as duration for the property to remain affordable could be forecasted.<br>
 
 ### Team Members of *Orange Intelligence Bureau*:
 - `Divya Pamu` 
 - `Isabella Lieberman`
 - `Omkar Patade`
-- `Roe Djer Tan`
+- `Roe Djer Tan`<br><br>
 
 ## Statement of Scope
 ### Project Objectives
