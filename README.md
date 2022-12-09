@@ -347,8 +347,7 @@ Merged data was outputted as [final_rent.csv](data/consolidated/final_rent.csv)<
 | 2 Bedrooms | Median rent price for property with 2 bedrooms | float | https://data.census.gov/ | [final_rent.csv](data/consolidated/final_rent.csv) | 779.0 |
 | 3 Bedrooms | Median rent price for property with 3 bedrooms | float | https://data.census.gov/ | [final_rent.csv](data/consolidated/final_rent.csv) | 779.0 |
 | 4 Bedrooms | Median rent price for property with 4 bedrooms | float | https://data.census.gov/ | [final_rent.csv](data/consolidated/final_rent.csv) | 779.0 |
-| 5 or more bedrooms | Median rent price for property with 5 or more bedrooms | float | https://data.census.gov/ | [final_rent.csv](data/consolidated/final_rent.csv) | 779.0 |
-<br>
+| 5 or more bedrooms | Median rent price for property with 5 or more bedrooms | float | https://data.census.gov/ | [final_rent.csv](data/consolidated/final_rent.csv) | 779.0 |<br>
 
 ### Age and Population ([stillwater_age_population.csv](data/transformed/age_population/stillwater_age_population.csv))
 
@@ -365,8 +364,7 @@ Merged data was outputted as [final_rent.csv](data/consolidated/final_rent.csv)<
 | :--- |:--- | :--- |:--- | :--- |:--- |
 | Year | Year | integer | https://datausa.io/ | [emp_industry.csv](data/emp_industry.csv) | 2020
 | Industry | Industry Name | string | https://datausa.io/ | [emp_industry.csv](data/emp_industry.csv) | Education |
-| Workforce | Number of People in the Industry | integer | https://datausa.io/ | [emp_industry.csv](data/emp_industry.csv) | 2451 |
-<br>
+| Workforce | Number of People in the Industry | integer | https://datausa.io/ | [emp_industry.csv](data/emp_industry.csv) | 2451 |<br>
 
 ### Student Enrollment ([enrollment.csv](data/enrollment.csv))
 
