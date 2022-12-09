@@ -326,7 +326,7 @@ Merged data was outputted as [final_rent.csv](data/consolidated/final_rent.csv)<
 
 ## Data Dictionary
 
-### Consolidated csv File ([final_rent.csv](data/consolidated/final_rent.csv)):<br>
+### Consolidated csv File ([final_rent.csv](data/consolidated/final_rent.csv))
 
 | Attribute Name | Description | Data Type | Source | Data | Example |
 | :--- |:--- | :--- |:--- | :--- |:--- |
