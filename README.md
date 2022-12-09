@@ -65,7 +65,11 @@ Raw table: [Full-Time vs Part-Time Enrollment](data/raw/enrollment_status/Full-T
 | [rent_price.py](code/rent_price.py) | Scraping and transformation of rent data (response variable).  |
 | [independent_variables.py](code/independent_variables.py) | Scraping of all predictor data. |
 | [IV_transformation.py](code/IV_transformation.py) | Transformation of all predictor data. |
-| [data_consolidation.py](code/data_consolidation.py) | Consolidation of all potential data into [final_rent.csv](data/consolidated/final_rent.csv). |<br>
+| [data_consolidation.py](code/data_consolidation.py) | Consolidation of all potential data into [final_rent.csv](data/consolidated/final_rent.csv). |
+| [viz_1.R](code/viz_1.R) | Visualizing *Rent Price Trend in Stillwater from 2015 to 2020*. |
+| [viz_2.R](code/viz_2.R) | Visualizing for *Rent Price Trend in Stillwater vs. OSU Enrollment*. |
+| [viz_3.R](code/viz_3.R) | Visualizing for *Rent Price vs. Property Value in Stillwater*. |
+| [viz_4.R](code/viz_4.R) | Visualizing for *Rent Price vs. Population Age in Stillwater*. |<br>
 
 * `/data`: Contains Datasets.
 
@@ -254,7 +258,7 @@ Code: [data_consolidation.py](code/data_consolidation.py)<br>
 Some of the independent variables, such as age, household income and property value, had many bins for the same year. So, in order to consolidate these rows, we calculated median value for age, household income, and property value and used those statistics as our representative value for that year. Median (for grouped data) was calculated using the following function:<br>
 ![Transformation_10](assets/data_transformation/Transformation_10.png)<br>
 
-### Recoding Values
+### Recoding Values before Visualization
 Code: [viz_1.R](code/viz_1.R), [viz_2.R](code/viz_2.R), [viz_3.R](code/viz_3.R), and [viz_4.R](code/viz_4.R)<br>
 Some of the transformations were done right before visualization. Recoding was one of them. The purpose of recoding was to minimize the length of the values so that it was not presented in a confusing and messy way in visualizations. For example, by using `recode` function in R, we minimized the values for number of rooms from `Overall.Median.Rent` to `Overall`, from `No.bedroom` to `None`, from `X1,bedroom` to `One`, and so on. The code and output for mentioned are as shown:<br>
 
@@ -415,47 +419,104 @@ Merged data was output as [final_rent.csv](data/consolidated/final_rent.csv)<br>
 
 ## Visualizations
 
+Before going into visualizations, since our main target was to determine the rent prices trend as well as its relationship with another predictors, we selected `Median Rent Prices` as our target variables. Then, we selected `OSU Enrollment`, `Property Value`, and `Population Age` in Stillwater as our predictors. Stillwater has a variety of properties broadly divided into houses, condos, townhomes and apartments. However, for the scope of this study, we divided the type of property based on the number of bedrooms it contained as an indicator of the number of people living in that property. Stillwater mainly has a transitional type of lifestyle as it is chock full of students who attend the nearby university and therefore has a high demand for property rental services (Mize, 2022). The steps we took in our analysis were:<br>
+1. Finding out the trend of rent prices in Stillwater from 2015 to 2020.
+2. Investigating the relationship between rent prices and OSU Enrollment in Stillwater.
+3. Investigating the relationship between rent prices and property values in Stillwater.
+4. Investigating the relationship between rent prices and population age in Stillwater.<br>
+
 ### Rent Price Trend in Stillwater from 2015 to 2020
 
 ![viz_01](assets/visualization/viz_01.png)<br>
 
-Stillwater is a city in Payne County, Oklahoma. It is located in north-central Oklahoma at the intersection of U.S. Route 177 and State Highway 51. As of the 2010 census, the city population was 45,688, making it the tenth-largest city in Oklahoma. For our analysis the choice of using median prices was made as the data obtained is not normally distributed.<br>
-In 2015, Stillwater had rent prices ranging from $600/month for 1 bedroom apartments to $1280/month for 5 or more bedroom apartments. Stillwater has seen a steady increase in rent prices since. <br>
-Rent prices had reached a high in Academic year of 2017 - 18, as 2017 - 18 had seen an influx of students in Oklahoma State University, which is also the largest employer in the city. As of 2017 - 18, it was the biggest enrollment season for undergraduate courses in the university[1], it can be said with a certain degree of confidence that this was one of the factors behind driving up the rent prices. Prices seemed to return to normal in 2018 - 19.<br>
-The Financial year of 2019 saw the biggest dip in rent prices, in a major part, due to the spread of Covid-19. The university stopped taking international and out of state enrollments and demand for housing and accomodation services dipped. This lead to the highest dip in rent prices since 2015 - 16. However, it is noticed that apartments that had bedrooms ranging from 1 to 3, didn’t receive a big hit. It may be noticed that the prices for rent for 3 bedroom apartments actually increased in 2019 - 20. Rent prices have more or less stabilized after 2020-21 and have reached pre-pandemic levels.<br>
-The key takeaway from this is, from an investor standpoint, apartments in Stillwater having 1 to 3 bedrooms is a low risk investment looking at the current data. The rent for 1 to 3 bedroom apartments is a fairly stable market. However, further data is required before any concrete assumptions can be made, as for the scope of this analysis only data from Financial year of 2015 to 2020 was considered.<br><br>
+Stillwater is a city in Payne County, Oklahoma. It is located in north-central Oklahoma at the intersection of U.S. Route 177 and State Highway 51. As of the 2010 census, the city population was 45,688, making it the tenth-largest city in Oklahoma. For our analysis, the choice of using median prices was made as the data obtained is not normally distributed according to census bureau.<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In 2015, Stillwater had rent prices ranging from $600/month for 1 bedroom apartments to $1280/month for 5 or more bedroom apartments. In overall, Stillwater has seen a steady but extremely slight increase in rent prices since. However, when we break it down to rent prices for different number of rooms, we can observe fluctuation in rent.<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Financial year of 2019 saw the biggest dip in rent prices for housing unit with 4 or more rooms due to the spread of COVID-19. The university reduced the intake of international and out-of-state enrollments thus demand for housing and accomodation services dipped. This lead to the highest dip in rent prices since 2015 - 16. However, it is noticed that apartments that had bedrooms ranging from 0 to 3 did not receive a big hit. So, it seems like housing units with more rooms are preferred by the students. We will take a deeper view in this case in the next few analyses. It may be noticed that the prices for rent for apartments with 4 (or more) bedrooms actually increased in 2019 - 20. Rent prices have more or less stabilized after 2020-21 and have reached pre-pandemic levels. However, we would need more data for post-pandemic period to verify the stabilization of the rent price trend.<br><br>
+**Key Take-away:**<br>
+The key takeaway from this is, from an investor standpoint, apartments in Stillwater having 0 to 3 bedrooms is a low risk investment looking at the current data. However, the rent for 4-or-more-bedroom apartments is fairly unstable. It is worth to point out that before any concrete assumptions can be made, further data is required as for the scope of this analysis only data from Financial year of 2015 to 2020 is considered.<br><br>
 
 ### Rent Price Trend in Stillwater vs. OSU Enrollment
 
 ![viz_02.png](assets/visualization/viz_02.png)<br>
 
-Oklahoma State University (OSU) is a land-grant public university, OSU was founded in 1890 under the Morrill Act. Originally known as Oklahoma Agricultural and Mechanical College (Oklahoma A&M), it is the flagship institution of the Oklahoma State University System that holds more than 35,000 students across its five campuses with an annual budget of $1.5 billion. Students tend to live in 3 or more-bedroom flats, correspondingly a dip in the rent prices of these types of accommodation was observed as supply outstripped demand.<br> 
-Enrollment for OSU across all its campuses was the highest at 25,930 in the Academic year of 2015-16 and followed a decreasing trend over the years. The academic year of 2019-20 was the year where enrollment dropped to a low of 24079 students. The loss in enrollment numbers was not found to significantly different as a lot of students simply switched over to online classes, however that phenomenon led to lower demand for accommodations as there were low number of students attending classes and staying in Stillwater. However, the decrease in rent prices was not as severe as it occurred for 4- or 5-bedroom houses. For the year of 2020-21, Enrollment in the university increased[2] despite the global pandemic. At the end of Academic year 2020 - 21 the rent prices stabilized and returned to previous levels. <br>
-Looking at the graph, it can be reliably said that OSU enrollment numbers do play a significant role in determining the median rent prices in Stillwater under normal circumstances. Also, it can be seen that the prices for 2 bedrooms or less apartments remained the same which is counter intuitive. Therefore, in years full of unexpected events, enrollment numbers cannot be used to determine median rent prices. <br><br>
+OSU is a land-grant public university, OSU was founded in 1890 under the Morrill Act. Originally known as Oklahoma Agricultural and Mechanical College (Oklahoma A&M), it is the flagship institution of the Oklahoma State University System that holds more than 35,000 students across its five campuses with an annual budget of $1.5 billion. Students tend to live in 3-or-more-bedroom housing units, correspondingly a dip in the rent prices of these types of accommodation was observed as supply outstripped demand.<br> 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enrollment for OSU across all its campuses was the highest at 25,930 in the Academic year of 2015-16 and followed a decreasing trend over the years. The academic year of 2019-20 was the year where enrollment dropped to a low of 24079 students. The loss in enrollment numbers was not found to significantly different as a lot of students simply switched over to online classes. However, that phenomenon led to lower demand for accommodations as there were low number of students attending classes and staying in Stillwater. Based on the chart, the decrease in rent prices was not as severe as it occurred for 3-or-more-bedroom houses. For the year of 2020-21, OSU (2020) states that enrollment in Stillwater campus increased despite the global pandemic. This supported our case that at the end of Academic year 2020 - 21, the rent prices stabilized and returned to previous levels. <br><br>
+
+**Key Take-away:**<br>
+Looking at the graph, it can be reliably said that OSU enrollment numbers do play a significant role in determining the median rent prices for units with 3 rooms or more in Stillwater under normal circumstances. However, it could be seen that the prices for housing units with 2 bedrooms or less remained the same. Perhaps, the data we obtained covered the outskirt of Stillwater where housing units with 3 bedrooms or more were scarce and housing units with 2 bedrooms or less in the outskirts were not in high demand as housing units close to the campus causing the rent prices to remain stable. Another explanation for high demand in housing with more rooms among students is that students will be more likely to go for lower rental pay per pax and more rooms mean less rental per pax. <br><br>
 
 ### Rent Price vs. Property Value in Stillwater
 
 ![viz_03](assets/visualization/viz_03.png)<br>
 
-Stillwater has a variety of properties broadly divided into Houses, Condos, Townhomes and Apartments. However, for the scope of this study we divided the type of property based on the number of bedrooms it contains as an indicator of the number of people living in that property. Stillwater mainly has a transitional type of lifestyle as it is chock full of students who attend the nearby university and therefore has a high demand for property rental services[3]. It was observed that rent prices were directly proportional to the value of the property being rented. However, rents of one category of rooms were significantly affected by property value. <br>
-Rents for properties containing 3 or more bedrooms were disproportionately higher than rents for properties containing less than 2 bedrooms. This is an expected outcome as it makes sense for a property owner to expect rent in accordance with the property value. Linear equations were created to gain a rough idea of what rent to expect given the value of the property is known: <br>
+Property market is volatile and it always impacts the rent prices. Stillwater as a town is a prime location in Oklahoma as it is a thriving community with around 50,000 permanent residents and in a location close to both Tulsa and Oklahoma City. Stillwater also gets about 23,000 new students each year at Oklahoma State University who contribute to the local economy. The crime rate and demographics of Stillwater are also a major contributor to the property values. Therefore, we decided to explore the relationship between rent and property values in Stillwater. <br> 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Based on our chart, the relationship between rent and property values in Stillwater is dependable on the number of bedrooms. For housing units with 3 or more bedroonms, the rent has a postive linear relationship with the property values. However, for housing units with 2 or less bedrooms, this is not true. Linear equations were created to gain a rough idea of what rent to expect given the value of the property is known: <br>
 
 
-$$ Rent (for 3 or more bedroom apt.) = 1.85⋅ property value $$
+$$ Rent(for 3 or more bedrooms)=1.85⋅property value $$
 
-$$ Rent(for 2 bedrooms or less apt.)=0.4⋅property value $$
+$$ Rent(for 2 or less bedrooms)=0.4⋅property value $$
 
 $$ Where, property value in 1000's $$
 
+Based on the equations, for every 1000 USD increment in property value, rent will increase on average by 1.85 USD for housing units with 3 or more bedrooms while only 0.4 USD for housing units for 2 or less bedrooms.<br>
 
-We decided to carry out further analysis and it was found that Stillwater as a town was a prime location in Oklahoma as it is a thriving community with 50,000 permanent residents and in a location close to both Tulsa and Oklahoma City. Stillwater also gets about 23,000 new students each year at Oklahoma State University who contribute to the local economy. The crime rate and demographics of Stillwater are also a major contributor to the property values.<br>
-From an investor or property company perspective, Stillwater is an improving city with a high quality of life almost guaranteeing high ROI on investments[4], and from a resident perspective Stillwater is quaint town with a close-knit community. The main insight being that Stillwater is ripe for economic growth in the coming years.<br><br>
+
+**Key Take-way:**<br>
+Based on the equations, it can be concluded that on average, every 1000 USD investment increment on property (for renting purposes) in Stillwater, investors can have 1.45 USD more Return on Investment (ROI) if investing in housing units with 3 or more bedrooms than 2 or less bedrooms.<br><br>
 
 ### Rent Price vs. Population Age in Stillwater
-![viz_04](assets/visualization/viz_04.png)
+![viz_04](assets/visualization/viz_04.png)<br>
+
+According to US Census Bureau (2022), Stillwater is a young town with a median age of 23.5 years for males and 24.4 years for females, 75.3% of the population is between 18 and 65 years of age and 10% of the population is above 65 years of age. Stillwater mainly has residents from out of the area following a transitional lifestyle contributing to the increased demand for rental services. So, it comes to a question: do rent prices correlate with population age?<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Coming to the graph above, a clear trend can be observed for rooms having 3 or more bedrooms while rooms having 2 or less bedrooms show no clear trend. As the median age of the population increases, the rent prices for apartments having 3 or more bedrooms increases. One possible explanation is that when median age is higher, the population may have higher purchasing power with more family members resulting willingness to pay more for housing units with more rooms. This causes more competitive market on housing with more rooms as students have already demanded on them. Nevertheless, apartments having 2 or less bedrooms are tend to be too expensive for a student to afford causing a market less dependable to student population. Based on the chart, we are able to come with equations for both the types of apartments:
+
+$$ Rent price for 3 or more bedroom properties (in USD) = 303.92 ⋅ Median age (in years) $$
+
+$$ Rent price for 2 or less bedroom properties (in USD) = -3.24 ⋅ Median age (in years) $$
+
+Based on the equations, for every 1 year increment in median, rent will increase on average by 303.92 USD for housing units with 3 or more bedrooms while rent will decrease by 3.24 USD for housing units for 2 or less bedrooms.<br>
+
+**Key Take-way:**
+
+Population age is a significant predictor for rent prices of housing units with 3 rooms or more in Stillwater. If population age is high, rent prices of housing units with 3 rooms or more will be high too. When it comes to housing units with 2 rooms or less, population age will not have significant impact on rent prices in Stillwater.<br><br>
 
 
 ## Conclusion and Discussion
+
+### Summary of our Findings
+
+Although there is just a slight increment in overall trend of rent prices, when rent prices are broken down according to number of rooms per housing unit, we can observe something interesting. According to our analysis, COVID-19 pandemic, OSU enrollment, property value in Stillwater, and population age in Stillwater are significant variables influencing rent prices in Stillwater especially housing units with 3 or more bedrooms. Summary of our findings are as follows:
+
+- Housings in Stillwater having 0 to 2 bedrooms are stable in rent prices while the rent prices for 3-or-more-bedroom housing units are unstable.
+- Students prefer 3-or-more-bedroom units because it is more affordable than 2-or-less-bedroom units when it comes to sharing of rental.
+- When COVID-19 hit, OSU on-campus enrollment dropped resulting a dip in demand and rent price for 3-or-more-bedroom units. 
+- On average, every 1000 USD investment increment on property (for renting purposes) in Stillwater, investors can have 1.45 USD more ROI investing in housing units with 3 or more bedrooms than 2 or less bedrooms.
+- Population age is a significant predictor for rent prices of housing units with 3 rooms or more in Stillwater. If population age is high, rent prices of housing units with 3 rooms or more will be high too.<br>
+
+### Implications of this Project
+
+1. Incoming Students, Existing Students, People of Stillwater <br>
+*To gain information on housing demand and expected housing expenses for financial management*<br>
+- Enrollment at OSU can be generally used to determine the rent prices (especially housing units with 3 or more bedrooms) in Stillwater cannot be reliably used under unexpected circumstances.
+- If a year has high enrollment numbers, it is recommended for the student to go for a 2-or-less bedroom apartment as the price for that apartment will not fluctuate as much. 
+- Renewing the lease earlier can benefit the students who are staying in units with more bedrooms in case that an increase in enrollment numbers can be seen in following years.
+2. Statisticians and Analysts, Real Estate & Housing Businesses, City of Stillwater <br>
+*To maintain competitiveness in rent prices, to prevent overpricing in rent, and to plan housing development efficiently according to forecasted demand.*<br>
+- Market for rentals of 0-to-2-bedroom apartments is stable and has lower risk compared to rentals for 3 or more-bedroom apartments.
+- Population age can be used to forecast rent prices due to the fact that it portrays market competition among students and locals on housing units with 3 or more bedrooms.
+- Property values play a significant role on rent prices for housing units with 3 or more bedrooms but not housing units with 2 or less bedrooms.
+3. Overall Public<br>
+*To have a big picture of demographics and property/rent information of Payne County.* <br>
+- Stillwater is a young town with a median age of 23.5 years for males and 24.4 years for females.
+- Property values in Stillwater remain competitive but COVID-19 has caused a dip.
+- Rent price in Stillwater remain stable in overall but highly dependable on OSU enrollment when it comes to housing with more rooms.
 
 ### Issues and Challenges
 
@@ -479,14 +540,7 @@ From an investor or property company perspective, Stillwater is an improving cit
 - Thorough investigation on necessity of the mentioned data could be conducted to see if the data is necessary for the analysis. This could avoid wasting time on unnecessary dataset.
 - If it turns out significant, we could try separate to data from the master table and design an entity relationship diagram to connect the tables. If analysis is required, we could join the data using primary and foreign key into a dataframe and analyze it. <br>
 
-### Goals and Implications of this Project
 
-1. Incoming Students, Existing Students, People of Stillwater <br>
-- To gain information on housing demand and expected housing expenses for financial management
-2. Statisticians and Analysts, Real Estate & Housing Businesses, City of Stillwater <br>
-- To maintain competitiveness in rent prices, to prevent overpricing in rent, and to plan housing development efficiently according to forecasted demand.<br>
-3. Overall Public<br>
-- To have a big picture of demographics and property/rent information of Payne County. <br>
 
 ### References 
 Charles, Michelle. *City of Stillwater Continues COVID Assistance with Phase 3 Rent and Utility Aid.* Stillwater News Press, 24 Mar. 2022, https://autos.yahoo.com/city-stillwater-continues-covid-assistance-050400868.html.<br>
